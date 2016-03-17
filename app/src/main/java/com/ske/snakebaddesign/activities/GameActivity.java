@@ -87,17 +87,6 @@ public class GameActivity extends AppCompatActivity {
         displayDialog(title, msg, listener);
     }
 
-
-
-//    private int adjustPosition(int current, int distance) {
-//        current = current + distance;
-//        int maxSquare = boardSize * boardSize - 1;
-//        if(current > maxSquare) {
-//            current = maxSquare - (current - maxSquare);
-//        }
-//        return current;
-//    }
-
     private void checkWin() {
         String title = "Game Over";
         String msg = "";
